@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    border: 0;
+    outline: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+boby {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: 90%;
+    height: 80%;
+
+    border-radius: 10px;
+    
+    background: #fff;
+
+}
+
+.header {
+    min-height: 70px;
+
+    margin:auto 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header span {
+    font-weight: 700;
+    font-size: 30px;
+
+    word-break: break-all;
+
+}
+.divTable {
+    padding: 10px;
+    width: auto;
+    height: inherit;
+    overflow: auto;
+
+}
+
+.divTable::-webkit-scrollbar {
+    width: 12px;
+    background-color: #f28686;
+}
+.divTable::
+/*configuraçõa ids*/
+#new {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    color: white;
+    background-color: rgba(57, 57, 226,0.7);
+}
+
